@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+		android:id="@+id/title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/topinfo_bg"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/title_back_selector" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="180dp"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:text="排行榜"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/rank_title_normal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/red1"
+            android:text="@string/ranking_top_btn1"
+            android:textColor="@android:color/white" />
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:background="@color/line"
+            />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rank_title_selector"
+            android:text="@string/ranking_top_btn2"
+            android:textColor="@android:color/white" />
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:background="@color/line" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rank_title_selector"
+            android:text="@string/ranking_top_btn3"
+            android:textColor="@android:color/white" />
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:background="@color/line" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rank_title_selector"
+            android:text="@string/ranking_top_btn4"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <lbs.goodplace.com.controls.RefreshListView
+        android:id="@+id/shopinfo_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/listitem_divide" />
+
+    <ListView
+        android:id="@+id/ranking_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/listitem_divide"
+        android:visibility="gone" />
+
+</LinearLayout>

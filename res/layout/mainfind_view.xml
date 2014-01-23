@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- 顶部3个分布按钮 -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/Btn_city"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="fill_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/main_toolbar_area_button_selector"
+            android:text="@string/city"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/Btn_rank"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="fill_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/main_toolbar_range_button_selector"
+            android:text="@string/rank"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/Btn_credit"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:background="@drawable/main_toolbar_point_button_selector"
+            android:text="@string/credittype"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <!-- BODY -->
+    <LinearLayout
+        android:id="@+id/Rlayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <GridView
+            android:id="@+id/mainfind_gridview1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:columnWidth="60dp"
+            android:gravity="center"
+            android:horizontalSpacing="10dp"
+            android:numColumns="3"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10dp" />
+        
+        <LinearLayout
+            android:id="@+id/bottom_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp" >
+
+            <LinearLayout
+                android:id="@+id/LLayout_search"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/main_nextitem_bg_selector"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/search_small" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/searchallcategoies" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--
+    <RelativeLayout
+        android:id="@+id/Rlayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_layout"
+        android:visibility="gone" >
+
+        <GridView
+            android:id="@+id/mainfind_gridview2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:columnWidth="60dp"
+            android:gravity="center"
+            android:horizontalSpacing="10dp"
+            android:numColumns="3"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10dp" />
+
+        <LinearLayout
+            android:id="@+id/bottom_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true" >
+        </LinearLayout>
+    </RelativeLayout>
+    -->
+
+</LinearLayout>

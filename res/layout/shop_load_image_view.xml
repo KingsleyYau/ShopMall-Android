@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout_back"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffececec"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/topinfo_bg"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/title_back_selector" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:text="上传图片"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:focusableInTouchMode="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <ImageView
+                android:id="@+id/load_image"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                
+                android:src="@drawable/no_pic_big" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/promo_photo_border_normal"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="8dip"
+                    android:paddingRight="15dip"
+                    android:text="类型"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btn_product"
+                    android:layout_width="70dip"
+                    android:layout_height="35dip"
+                    android:layout_marginRight="10dip"
+                    android:background="@drawable/button_shop_selector"
+                    android:gravity="center"
+                    android:text="产品"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btn_ambience"
+                    android:layout_width="70dip"
+                    android:layout_height="35dip"
+                    android:layout_marginRight="10dip"
+                    android:background="@drawable/button_shop_selector"
+                    android:gravity="center"
+                    android:text="氛围"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btn_other"
+                    android:layout_width="70dip"
+                    android:layout_height="35dip"
+                    android:background="@drawable/button_shop_selector"
+                    android:text="其他"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:background="@drawable/promo_photo_border_normal"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dip"
+                    android:paddingRight="15dip"
+                    android:text="名称"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/select_product"
+                        android:layout_width="50dip"
+                        android:layout_height="35dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dip"
+                        android:background="@drawable/button_shop_selector"
+                        android:text="菜名"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/name_edite"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/select_product"
+                        android:background="@null"
+                        android:enabled="false"
+                        android:hint="这张照片拍的是什么?"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:background="@drawable/promo_photo_border_normal"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dip"
+                    android:paddingRight="15dip"
+                    android:text="评分"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <RatingBar
+                    android:id="@+id/score"
+                    style="@style/roomRatingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerHorizontal="true"
+                    android:numStars="5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/price_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:background="@drawable/promo_photo_border_normal"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dip"
+                    android:paddingRight="15dip"
+                    android:text="价格"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/price_edit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="点击输入价格"
+                    android:numeric="integer"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_load"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/button_upload_selector" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

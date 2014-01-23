@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:addStatesFromChildren="true"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical"
+    android:minHeight="70dp"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxWidth="121.6666667dp"
+        android:paddingRight="10dip"
+        android:singleLine="true"
+        android:text="标题"
+        android:textColor="#FF393939"
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <lbs.goodplace.com.component.ScoreStar
+            android:id="@+id/scoreStar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/one_person_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dip"
+            android:singleLine="true"
+            android:textColor="#FF393939"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dip"
+        android:text="内容"
+        android:textColor="#FF393939"
+        android:textSize="16dp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="15dip" >
+
+        <TextView
+            android:id="@+id/post_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2010-1-1"
+            android:textColor="#FF393939"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/arrow_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/arrow_down" />
+    </RelativeLayout>
+
+</LinearLayout>

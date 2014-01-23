@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg1" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/detail_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtView_buytips"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/drak_gray"
+            android:gravity="center"
+            android:text="@string/msgdetailtag1"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/Textview_shopname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+        
+        <TextView
+            android:id="@+id/Textview_infotitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+        
+        <TextView
+            android:id="@+id/Textview_infodes"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/Textview_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/msgusetime"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+        
+        <TextView
+            android:id="@+id/txtView_showtips"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/drak_gray"
+            android:gravity="center"
+            android:text="showtips"
+            android:textColor="@android:color/black" />
+        
+        <EditText
+		    android:id="@+id/Txtview_username"
+		    android:layout_width="fill_parent"
+		    android:layout_height="40dp"
+		    android:layout_margin="10dp"
+		    android:background="@drawable/login_edittxt"
+		    android:hint="@string/registermsg1"
+		    android:visibility="gone" />
+        
+        <Button android:id="@+id/Button_download"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:text="@string/iwannaget"
+            android:background="@drawable/detail_download_selector"
+            android:visibility="gone"/>
+        
+    </LinearLayout>
+
+</ScrollView>

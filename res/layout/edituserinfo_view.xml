@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1" >
+    
+<EditText
+                android:id="@+id/Txtview_oldpw"
+                android:layout_width="fill_parent"
+                android:layout_height="36dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/login_edittxt"
+                android:password="true"
+                android:hint="@string/oldpw" />
+
+
+<EditText
+                android:id="@+id/Txtview_newpw"
+                android:layout_width="fill_parent"
+                android:layout_height="36dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/login_edittxt"
+                android:password="true"
+                android:hint="@string/newpw" />
+</LinearLayout>

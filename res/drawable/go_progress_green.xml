@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:oneshot="false">
+    <item android:drawable="@drawable/go_progressbar_green1" android:duration="50" />
+    <item android:drawable="@drawable/go_progressbar_green2" android:duration="50" />
+    <item android:drawable="@drawable/go_progressbar_green3" android:duration="50" />
+    <item android:drawable="@drawable/go_progressbar_green4" android:duration="50" />
+    <item android:drawable="@drawable/go_progressbar_green5" android:duration="50" />
+    <item android:drawable="@drawable/go_progressbar_green6" android:duration="50" />
+    <item android:drawable="@drawable/go_progressbar_green7" android:duration="50" />
+    <item android:drawable="@drawable/go_progressbar_green8" android:duration="50" />
+    <item android:drawable="@drawable/go_progressbar_green9" android:duration="50" />
+    <item android:drawable="@drawable/go_progressbar_green10" android:duration="50" />
+    <item android:drawable="@drawable/go_progressbar_green11" android:duration="50" />
+    <item android:drawable="@drawable/go_progressbar_green12" android:duration="50" />
+</animation-list>

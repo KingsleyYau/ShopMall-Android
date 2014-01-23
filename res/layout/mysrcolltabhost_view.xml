@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+	<lbs.goodplace.com.controls.MyViewGroup
+		android:id="@+id/myViewGroup" 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_above="@+id/srcollhostLayout_bottom" />
+	<LinearLayout 
+	    android:id="@+id/srcollhostLayout_bottom" 
+	    android:layout_width="fill_parent"
+    	android:layout_height="56dp"
+    	android:layout_alignParentBottom="true">
+	    
+	</LinearLayout>
+</RelativeLayout>

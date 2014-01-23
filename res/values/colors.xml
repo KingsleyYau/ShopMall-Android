@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bgblue">#46d5ff</color>
+    <color name="ranking_top_btn_bg">#9c936c</color>
+    <color name="ranking_top_btn_red">#eb4036</color>
+    <color name="transparent">#00000000</color>
+    <color name="gold">#b89766</color>
+    <color name="aphleblack">#aa000000</color>
+    <color name="aphlebg">#efe6dcc8</color>
+    <color name="drak_gray">#a1a1a1</color>
+    <color name="drak_red">#a09672</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="red">#ffff0000</color>
+    
+    <color name="red1">#ef4136</color>
+    <color name="gry1">#9f966d</color>
+    <color name="line">#bcb38b</color>
+
+</resources>

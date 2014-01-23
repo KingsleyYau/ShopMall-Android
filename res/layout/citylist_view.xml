@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+            android:id="@+id/RLayout_Search"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/city_searchbar_bg"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="2dp" >
+
+                <Button
+                    android:id="@+id/button_searchcitybtn"
+                    android:layout_width="62dp"
+                    android:layout_height="42dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="6dp"
+                    android:text="@string/search"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/editText_searchcity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_toLeftOf="@+id/button_searchcitybtn"
+                    android:background="@drawable/search_edittext_bg2"
+                    android:textColor="@android:color/black"
+                    android:hint="@string/searchcityhint" >
+                </EditText>
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="6dp"
+                    android:src="@drawable/search_icon_small" />
+            </RelativeLayout>
+        </RelativeLayout>
+        
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/cityname_bg" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/citylist_msg1"
+            android:textSize="18dp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/textView_loca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="广州"
+            android:textSize="20dp"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ListView
+            android:id="@+id/listview_Province"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@color/white"
+            android:background="@android:color/transparent"
+            android:cacheColorHint="@android:color/transparent"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none"
+            android:layout_weight="1" >
+        </ListView>
+
+        <ListView
+            android:id="@+id/listview_City"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@android:color/transparent"
+            android:background="@color/white"
+            android:cacheColorHint="@android:color/transparent"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none"
+            android:layout_weight="1" >
+        </ListView>
+        
+        <ListView
+            android:id="@+id/listview_searchresult"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone"
+            android:divider="@android:color/transparent"
+            android:background="@color/white"
+            android:cacheColorHint="@android:color/transparent"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none"
+            android:layout_weight="1" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

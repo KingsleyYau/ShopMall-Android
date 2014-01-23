@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LLayout_rankview_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/aphlebg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ListView
+            android:id="@+id/listview_Province"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:divider="@color/white"
+            android:background="@android:color/transparent"
+            android:cacheColorHint="@android:color/transparent"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none"
+            android:layout_weight="1" >
+
+        </ListView>
+
+        <ListView
+            android:id="@+id/listview_City"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:divider="@android:color/transparent"
+            android:background="@color/white"
+            android:cacheColorHint="@android:color/transparent"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none"
+            android:layout_weight="1" >
+
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

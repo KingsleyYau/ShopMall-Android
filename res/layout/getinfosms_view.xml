@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical" >
+    
+<EditText
+    android:id="@+id/Txtview_username"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/login_edittxt"
+    android:hint="@string/registermsg1" />
+
+</LinearLayout>

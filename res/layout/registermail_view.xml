@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/Btn_phone"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="fill_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/main_toolbar_area_button"
+            android:text="@string/registerphone"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/Btn_mail"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="fill_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/main_toolbar_range_button_c"
+            android:text="@string/registermail"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/logo_color" />
+
+            <EditText
+                android:id="@+id/registermail_mail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:hint="@string/registermsg4"
+                android:background="@drawable/login_edittxt" />
+
+            <EditText
+                android:id="@+id/registermail_username"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:hint="@string/registermsg5"
+                android:background="@drawable/login_edittxt" />
+
+            <EditText
+                android:id="@+id/registermail_pw1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:hint="@string/registermsg6"
+                android:background="@drawable/login_edittxt"
+                android:password="true" />"
+
+            <EditText
+                android:id="@+id/registermail_pw2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:hint="@string/registermsg3"
+                android:background="@drawable/login_edittxt"
+                android:password="true" />
+
+            <Button
+                android:id="@+id/Button_summit"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/register_button" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

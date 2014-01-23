@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:addStatesFromChildren="true"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center"
+    android:minHeight="70dp"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <LinearLayout
+        android:id="@+id/content_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+                android:layout_width="114dp"
+                android:layout_height="90dp"
+                android:gravity="center"
+                android:background="@drawable/pic_border"
+                android:orientation="vertical" >
+
+        <ImageSwitcher
+            android:id="@+id/switcher"
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:inAnimation="@anim/appgame_fade_in"
+            android:outAnimation="@anim/appgame_fade_out" >
+
+            <ImageView
+                android:id="@+id/search_icon"
+                android:layout_width="110dp"
+                android:layout_height="80dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/search_icon_another"
+                android:layout_width="110dp"
+                android:layout_height="80dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY" />
+        </ImageSwitcher>
+  </LinearLayout>
+        <TextView
+            android:id="@+id/image_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/tip"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:maxWidth="121.6666667dp"
+            android:paddingBottom="5dip"
+            android:paddingRight="10dip"
+            android:paddingTop="5dip"
+            android:singleLine="true"
+            android:text="名称"
+            android:textSize="14dp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:visibility="gone"
+            android:layout_height="wrap_content" >
+
+            <lbs.goodplace.com.component.ScoreStar
+                android:id="@+id/scoreStar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dip"
+                android:singleLine="true"
+                android:text="人均：￥120"
+                android:textColor="#FF393939"
+                android:textSize="14dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

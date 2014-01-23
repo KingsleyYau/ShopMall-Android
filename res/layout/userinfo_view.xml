@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg1" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/RLayout_userinfo"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_margin="5dp" >
+
+                <ImageView
+                    android:id="@+id/imageView_user"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/no_pic" />
+
+                <TextView
+                    android:id="@+id/textView_usernickname"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/imageView1"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/imageView_user"
+                    android:text="TextView"
+                    android:textSize="18dp" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView_usernickname"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/imageView_user" >
+
+                    <Button
+                        android:id="@+id/button_edit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_editname_selector" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/button_setting_selector"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/Btn_login"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/member_login_button_selector" />
+
+            <LinearLayout
+                android:id="@+id/LLayout_spscore"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cerdittype_item_bg_selector"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/logo_small" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/spscore" />
+
+                <TextView
+                    android:id="@+id/Txtview_spscore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/nubmer_bg"
+                    android:gravity="center"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LLayout_otherscore"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cerdittype_item_bg_selector"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/wcdmalogo_small" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/otherscore" />
+
+                <TextView
+                    android:id="@+id/Txtview_otherscore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/nubmer_bg"
+                    android:gravity="center"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LLayout_myinfo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cerdittype_item_bg_selector"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/fav_small" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/myinfo" />
+
+                <TextView
+                    android:id="@+id/Txtview_myinfonum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/nubmer_bg"
+                    android:gravity="center"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/LLayout_myfav"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cerdittype_item_bg_selector"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/fav_small" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/fav" />
+
+                <TextView
+                    android:id="@+id/Txtview_favnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/nubmer_bg"
+                    android:gravity="center"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LLayout_mypic"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cerdittype_item_bg_selector"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pic_small" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/picture" />
+
+                <TextView
+                    android:id="@+id/Txtview_picturenum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/nubmer_bg"
+                    android:gravity="center"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LLayout_myreviews"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cerdittype_item_bg_selector"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/feedback_small" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/review" />
+
+                <TextView
+                    android:id="@+id/Txtview_reviewnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/nubmer_bg"
+                    android:gravity="center"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LLayout_mysign"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cerdittype_item_bg_selector"
+                android:baselineAligned="false"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/feedback_small" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/checkin" />
+
+                <TextView
+                    android:id="@+id/Txtview_checkinnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/nubmer_bg"
+                    android:gravity="center"
+                    android:minWidth="24dp"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

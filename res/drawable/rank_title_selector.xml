@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+  	<!-- <item android:state_pressed="true" android:drawable="@drawable/rank_title_press" />
+    <item android:state_selected="true" android:drawable="@drawable/rank_title_select" />
+    <item android:state_checked="true" android:drawable="@drawable/rank_title_select" />
+    <item android:drawable="@drawable/rank_title_normal" /> -->
+    
+    <item android:state_pressed="true" android:drawable="@color/red1" />
+	<item android:drawable="@color/gry1" />
+    
+</selector>

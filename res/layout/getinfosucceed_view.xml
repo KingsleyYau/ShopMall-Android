@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg1" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/detail_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtView_buytips"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/drak_gray"
+            android:gravity="center"
+            android:text="@string/msgdetailtag1"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/white"
+            android:text="@string/backtomsglist"
+            android:background="@drawable/detail_download_selector"
+            />"
+        
+        <Button
+            android:id="@+id/button_tomyinfolist"
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/white"
+            android:text="@string/gotomyinfolist"
+            android:background="@drawable/detail_download_selector" />
+        
+    </LinearLayout>
+
+</ScrollView>

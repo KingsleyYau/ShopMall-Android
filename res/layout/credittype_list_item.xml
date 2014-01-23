@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="38dp"
+    android:gravity="center_vertical"
+    android:background="@drawable/cerdittype_item_bg_selector" >
+    <ImageSwitcher
+        android:id="@+id/switcher"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="6.666dp"
+        android:inAnimation="@anim/appgame_fade_in"
+        android:outAnimation="@anim/appgame_fade_out" >
+
+        <ImageView
+            android:id="@+id/credittype_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/credittype_icon_another"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY" />
+    </ImageSwitcher>
+    <TextView android:id="@+id/Txtview_credittype_name"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"/>
+    <TextView android:id="@+id/Txtview_credittype_score"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"/>
+
+</LinearLayout>

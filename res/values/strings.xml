@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">好去处</string>
+    <string name="bottom_btn_good_find">好找</string>
+    <string name="bottom_btn_good_msg">好讯</string>
+    <string name="bottom_btn_me_has">我有</string>
+    <string name="bottom_btn_more">更多</string>
+    <string name="ranking_top_btn1">本周热门</string>
+    <string name="ranking_top_btn2">最佳餐厅</string>
+    <string name="ranking_top_btn3">口味最佳</string>
+    <string name="ranking_top_btn4">更多排名</string>
+    <string name="OK">确  定</string>
+	<string name="Cancel">取  消</string>
+	<string name="exit_sure">是否要退出程序</string>
+	<string name="nonet">要使用此功能请先连接网络</string>
+    
+    <!-- 主界面 -->
+    <string name="rank">排行榜</string>
+    <string name="credittype">积分</string>
+    <string name="more">更多</string>
+    <string name="searchallcategoies">搜翻天</string>
+    <string name="city">城市</string>
+    <string name="citylist">城市列表</string>
+    <string name="searchhint">输入商户名称搜索</string>
+    <string name="search">搜索</string>
+    <string name="notlocacity">您当前选择的城市是<g id="part1">%1$s</g>，如果需要使用附近功能，请切换置<g id="part2">%2$s</g></string>
+    
+   	<!-- 城市列表 -->
+   	<string name="citylist_msg1">GPS定位城市</string>
+   	<string name="defaultstr">默认</string>
+   	<string name="wholecity">全城</string>
+   	<string name="searchcityhint">请输入城市名称搜索</string>
+
+    <!-- 刷新listview -->
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">松开刷新</string>
+    <string name="pull_to_refresh_refreshing_label">正在刷新</string>
+    <string name="pull_to_refresh_tap_label">点击刷新</string>
+    <string name="pull_to_refresh_latest_label">最近刷新：</string>
+
+    <!-- 用户信息 -->
+    <string name="plzlogin">请先登录</string>
+    <string name="spscore">好去处积分</string>
+    <string name="otherscore">联通积分</string>
+    <string name="fav">收藏</string>
+    <string name="picture">图片</string>
+    <string name="review">点评</string>
+    <string name="checkin">签到</string>
+    <string name="edit">修改</string>
+    <string name="oldpw">旧密码</string>
+    <string name="newpw">新密码</string>
+    <string name="favshop">收藏商户</string>
+    <string name="myalbum">我的商户</string>
+    <string name="mysignup">我的签到</string>
+    <string name="mycommont">我的点评</string>
+    <string name="myinfo">我的卷卷</string>
+    
+    <!-- 登录 -->
+    <string name="register">注册</string>
+    <string name="account">邮箱、手机号</string>
+    <string name="password">密码</string>
+    <string name="otheraccount">或者用其它帐号登录</string>
+    <string name="sinaccount">用新浪微博帐号登录</string>
+    <string name="kaixinccount">用开心网帐号登录</string>
+    <string name="qqccount">用QQ帐号登录</string>
+    <string name="renrenccount">用人人帐号登录</string>
+    <string name="loginsuccess">登录成功~</string>
+    <string name="loginfaile">登录失败</string>
+    
+    <!-- 好讯 -->
+    <string name="all">全部</string>
+    <string name="allnewmsg">全部资讯</string>
+    <string name="allchannel">全部频道</string>
+    <string name="allcredit">全部积分</string>
+    <string name="allcategories">全部分类</string>
+    
+    <!-- 我的卷卷 -->
+    <string name="canuse">可用</string>
+    <string name="expired">过期</string>
+    <string name="used">已用</string>
+    <string name="myinfodetail">卷卷详细</string>
+    
+    <!-- 资讯详细 -->
+    <string name="msgdetail">资讯详细</string>
+    <string name="msgdetailtag1">将此页直接展示或下载到手机均可使用</string>
+    <string name="msgdetailtag2">除特殊说明外,本优惠不能与其他优惠同时间享受</string>
+    <string name="msgdetailtag3">免责声明</string>
+    <string name="msgusetime">有效期:<g id="part1">%1$s</g>至<g id="part2">%2$s</g></string>
+    <string name="msgpicdownload">资讯图片下载</string>
+    <string name="getinfosmssucceed">短信很快会发送到您的手机上</string>
+    <string name="download">下载</string>
+    <string name="getmsgdetail">获取优惠</string>
+    <string name="backtomsglist">继续浏览资讯</string>
+    <string name="gotomyinfolist">查看我的卷卷</string>
+    <string name="iwannaget">我要获取</string>
+    
+    <!-- 商店列表 -->
+    <string name="nearshop">附近商户</string>
+    <string name="shoplist">商户列表(共<g id="part1">%1$s</g>家)</string>
+    
+    <!-- 商铺详细 -->
+    <string name="shopdetail">商铺详细</string>
+    <string name="album">商户图片</string>
+    <string name="signup">签到留言</string>
+    <string name="commont">商户点评</string>
+    <string name="getprobleam">感谢您宝贵的建议，谢谢</string>
+    <string name="probleam">报错与建议</string>
+    <string name="share">//@好去处导购平台　</string>
+    <string name="shopmsg">商户资讯(共<g id="part1">%1$s</g>条)</string>
+    <string name="nearshops">周边商户</string>
+    
+    <!-- 更多 -->
+    <string name="introduction">Shopla的成立年份，公司背景，成立目标和合作伙伴等。其它简介有待填充，让介绍来得更猛烈些吧。</string>
+    <string name="version">软件版本:</string>
+    <string name="tel">客服电话:020-88888888</string>
+    <string name="web">网址:www.shopla.com</string>
+    <string name="downloadofflinemap">下载港澳地图</string>
+    <string name="hongkong">港澳</string>
+    
+    <!-- 注册 -->
+    <string name="registerphone">手机号注册</string>
+    <string name="registermail">邮箱注册</string>
+    <string name="registermsg1">请输入手机号</string>
+    <string name="registermsg2">请输入验证码</string>
+    <string name="registermsg3">确认密码</string>
+    <string name="registermsg4">请输入邮箱</string>
+    <string name="registermsg5">请输入昵称(中英文或数字)</string>
+    <string name="registermsg6">密码(6~12位字符)</string>
+    <string name="registesuccess">注册成功~</string>
+    <string name="registefaile">注册失败</string>
+    <string name="changepwsuccess">修改成功~</string>
+    <string name="changepwfaile">修改失败</string>
+    <string name="pwnotfit">两次输入的密码不一致</string>
+    <string name="notmail">请输入正确的邮箱</string>
+    <string name="getcodemsg1">请在<g id="part1">%1$s</g>秒后再获取验证码</string>
+    <string name="getcodemsg2">验证码正在发送中</string>
+    
+    <!-- 搜全城 -->
+    <string name="hotregions">热门商区</string>
+    <string name="hotcategories">热门分类</string>
+    <string name="allregions">全部商区</string>
+    <string name="chooseregions">选择商区</string>
+    <string name="morecategories">更多分类</string>
+    
+    <!-- 地图 -->
+    <string name="mapshopindex">第<g id="part1">%1$s</g>-<g id="part2">%2$s</g>家</string>
+    <string name="map_not_ready">SupportMapFragment初始化失败</string>
+    
+    <!-- 推送 -->
+    <string name="push_message">推送消息</string>
+    <string name="jni_error">网络不给力</string>
+    
+    <!-- 错误描述 -->
+    <string name="error199001">数据服务异常</string>
+    <string name="error199002">请求参数不可为空</string>
+    <string name="error199003">导购平台ID和客户端种类numno不可为空</string>
+    <string name="error199004"></string>
+    <string name="error199005"></string>
+    <string name="error199006">导购平台ID、设备令牌、经度、纬度参数不可为空</string>
+    <string name="error199007"></string>
+    <string name="error199008"></string>
+    <string name="error199009"></string>
+    <string name="error199010"></string>
+    <string name="error199011"></string>
+    <string name="error199012"></string>
+    <string name="error199013"></string>
+    <string name="error199014"></string>
+    <string name="error199015"></string>
+    <string name="error199016">手机会话KEY无效</string>
+    <string name="error199017"></string>
+    <string name="error199018"></string>
+    <string name="error199019"></string>
+    <string name="error199020"></string>
+    <string name="error199021">会员账号已被注册</string>
+    <string name="error199022">该邮箱已被注册</string>
+    <string name="error199023">该邮箱格式非法</string>
+    <string name="error199024">密码应6-12位数字或字母组成</string>
+    <string name="error199025">账号应至少6位字母或数字组成</string>
+    <string name="error199026">会员通过邮箱注册失败</string>
+    <string name="error199027">会员邮箱激活码产生失败</string>
+    <string name="error199028"></string>
+    <string name="error199029"></string>
+    <string name="error199030">激活校验码过期失效</string>
+    <string name="error199031">无法凭激活校验码找到会员</string>
+    <string name="error199032">未知原因无法激活邮箱注册会员</string>
+    <string name="error199033">未知原因使用激活校验码失败</string>
+    <string name="error199034"></string>
+    <string name="error199035">会员密码非法</string>
+    <string name="error199036">无该注册会员</string>
+    <string name="error199037">会员还没有激活或状态无效</string>
+    <string name="error199038">会员密码错误</string>
+    <string name="error199039"></string>
+    <string name="error199040"></string>
+    <string name="error199041"></string>
+    <string name="error199042">手机号不正确</string>
+    <string name="error199043">未知原因无法生成手机校验码</string>
+    <string name="error199044">短信网关异常，无法发送短信验证码</string>
+    <string name="error199045">账号应为手机号格式</string>
+    <string name="error199046">验证码已使用失效</string>
+    <string name="error199047"></string>
+    <string name="error199048">上传文件必须是常规图片文件</string>
+    <string name="error199049"></string>
+    <string name="error199050"></string>
+    <string name="error199051"></string>
+    <string name="error199052"></string>
+    <string name="error199053"></string>
+    <string name="error199054"></string>
+    <string name="error199055"></string>
+    <string name="error199056"></string>
+    <string name="error199057"></string>
+    <string name="error199058"></string>
+    <string name="error199059"></string>
+    <string name="error199060"></string>
+    <string name="error199061"></string>
+    <string name="error199062"></string>
+    <string name="error199063"></string>
+    <string name="error199064"></string>
+    <string name="error199065"></string>
+    <string name="error199066"></string>
+    <string name="error199067">用户曾提交过相同内容</string>
+    <string name="error199068"></string>
+    <string name="error199069"></string>
+    <string name="error199070"></string>
+    <string name="error199071"></string>
+    <string name="error199072"></string>
+    <string name="error199073"></string>
+    <string name="error199074"></string>
+    <string name="error199075"></string>
+    <string name="error199076"></string>
+    <string name="error199077"></string>
+    <string name="error199078"></string>
+    <string name="error199079"></string>
+    <string name="error199080"></string>
+    <string name="error199081"></string>
+    <string name="error199082"></string>
+    <string name="error199083"></string>
+    <string name="error199084"></string>
+    <string name="error199085">暂没支持现金购买资讯服务</string>
+    <string name="error199086">联通积分余额不足</string>
+    <string name="error199087">好去处积分余额不足</string>
+    <string name="error199088">卷已分配完毕</string>
+    <string name="error199089">该卷获取需手机号老获取短信验证码</string>
+    <string name="error199090">未知原因扣取联通积分失败</string>
+    <string name="error199091">未知原因扣取好去处积分失败</string>
+    <string name="error199092">未知卷的使用类型</string>
+    <string name="error199093">兑换不成功及未知原因回退联通积分扣除失败</string>
+    <string name="error199094">兑换不成功及未知原因回退好去处积分扣除失败</string>
+    <string name="error199095">未知原因获取 卷失败</string>
+    <string name="error199096">未知异常无法返回相应</string>
+    <string name="errorFail">操作失败,请稍候重试</string>
+    
+    <!-- 商家信息 -->
+    <string name="select_shop_image_name">选择图片名称</string>
+    <string name="title_traffic">交通、营业时间及其他</string>
+    
+    <string name="traffic_title_name">交通信息</string>
+    <string name="shopinfo_title_name">商户详情</string>
+    
+    <string name="tip_no_traffic">暂无交通信息</string>
+    
+</resources>

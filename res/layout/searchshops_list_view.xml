@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llayout_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top" >
+
+        <Button
+            android:id="@+id/Btn_allregions"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/main_toolbar_area_button_selector"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/allregions"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/Btn_distance"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/main_toolbar_area_button_selector"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/wholecity"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/Btn_rank"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/main_toolbar_area_button_selector"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/allchannel"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/Btn_credit"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/main_toolbar_area_button_selector"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/allcredit"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/Btn_Sort"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/main_toolbar_area_button_selector"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/defaultstr"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <TextView android:id="@+id/searchshops_locatext"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/white"
+        android:background="@color/aphleblack"/>
+    
+    <lbs.goodplace.com.controls.RefreshListView
+        android:id="@+id/searchshops_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/llayout_top"
+        android:layout_above="@id/searchshops_locatext"
+        android:cacheColorHint="#00000000" />
+    
+    
+
+</RelativeLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/aphlebg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/range_bg" >
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:gravity="top"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/RadioButton_500"
+                    android:layout_width="50dp"
+                    android:layout_height="79dp"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:checked="true"
+                    android:drawableBottom="@drawable/myradiobtn_selector"
+                    android:gravity="center"
+                    android:paddingLeft="1dp"
+                    android:paddingRight="5dp"
+                    android:text="500m"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/right_arrow" />
+
+                <RadioButton
+                    android:id="@+id/RadioButton_1k"
+                    android:layout_width="50dp"
+                    android:layout_height="79dp"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:drawableBottom="@drawable/myradiobtn_selector"
+                    android:gravity="center"
+                    android:paddingLeft="1dp"
+                    android:paddingRight="5dp"
+                    android:text="1km"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/right_arrow" />
+
+                <RadioButton
+                    android:id="@+id/RadioButton_2k"
+                    android:layout_width="50dp"
+                    android:layout_height="79dp"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:drawableBottom="@drawable/myradiobtn_selector"
+                    android:gravity="center"
+                    android:paddingLeft="1dp"
+                    android:paddingRight="5dp"
+                    android:text="2km"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/right_arrow" />
+
+                <RadioButton
+                    android:id="@+id/RadioButton_5k"
+                    android:layout_width="50dp"
+                    android:layout_height="79dp"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:drawableBottom="@drawable/myradiobtn_selector"
+                    android:gravity="center"
+                    android:paddingLeft="1dp"
+                    android:paddingRight="5dp"
+                    android:text="5km"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/right_arrow" />
+
+                <RadioButton
+                    android:id="@+id/RadioButton_wholecity"
+                    android:layout_width="50dp"
+                    android:layout_height="79dp"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:drawableBottom="@drawable/myradiobtn_selector"
+                    android:gravity="center"
+                    android:paddingLeft="1dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/wholecity"
+                    android:textSize="18dp" />
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

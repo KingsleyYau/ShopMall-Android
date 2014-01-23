@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg1" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/detail_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtView_msgtips"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/drak_gray"
+            android:gravity="center"
+            android:text="@string/msgdetailtag1"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/Textview_vericode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:visibility="gone" />
+        
+        <ImageView
+            android:id="@+id/imageView_qrcode"
+            android:layout_width="300dp"
+            android:layout_height="180dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/no_pic_big"
+            android:visibility="gone" />
+        
+        <ImageView
+            android:id="@+id/imageView_detail"
+            android:layout_width="300dp"
+            android:layout_height="280dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/no_pic_big" />
+
+        <TextView
+            android:id="@+id/Textview_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/msgdetailtag1"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/Textview_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/msgusetime"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+        
+        <Button android:id="@+id/Button_download"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:text="@string/iwannaget"
+            android:background="@drawable/detail_download_selector"
+            />
+        
+        <TextView
+            android:id="@+id/txtView_showtips"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/msgdetailtag2"
+            android:textColor="@color/drak_gray"
+            android:textSize="14dp" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/msgdetailtag3"
+            android:textColor="@color/red1"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/white_kk"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/introduction"
+            android:layout_margin="8dp"
+            android:textSize="16dp" />
+        
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/drak_gray" />
+        <TextView
+            android:id="@+id/Textview_version"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/version"
+            android:layout_margin="8dp"
+            android:textSize="16dp" />
+        
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/drak_gray" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/tel"
+            android:textSize="16dp" />
+        
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/drak_gray" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/web"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/white_kk"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/Textview_downloadofflinemap_HK"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/downloadofflinemap"
+            android:layout_margin="8dp"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+</LinearLayout>
